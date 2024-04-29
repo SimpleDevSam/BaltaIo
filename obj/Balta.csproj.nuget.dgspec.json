@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Developer\\Balta\\Balta\\Balta.csproj": {}
+    "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\DevSam\\Balta\\BaltaIo\\Balta.csproj": {}
   },
   "projects": {
-    "C:\\Developer\\Balta\\Balta\\Balta.csproj": {
+    "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\DevSam\\Balta\\BaltaIo\\Balta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Developer\\Balta\\Balta\\Balta.csproj",
+        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\DevSam\\Balta\\BaltaIo\\Balta.csproj",
         "projectName": "Balta",
-        "projectPath": "C:\\Developer\\Balta\\Balta\\Balta.csproj",
-        "packagesPath": "C:\\Users\\OSUA\\.nuget\\packages\\",
-        "outputPath": "C:\\Developer\\Balta\\Balta\\obj\\",
+        "projectPath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\DevSam\\Balta\\BaltaIo\\Balta.csproj",
+        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\DevSam\\Balta\\BaltaIo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\OSUA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

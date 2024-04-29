@@ -16,3 +16,18 @@ C:\Developer\Balta\Balta\obj\Debug\net8.0\refint\Balta.dll
 C:\Developer\Balta\Balta\obj\Debug\net8.0\Balta.pdb
 C:\Developer\Balta\Balta\obj\Debug\net8.0\Balta.genruntimeconfig.cache
 C:\Developer\Balta\Balta\obj\Debug\net8.0\ref\Balta.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\bin\Debug\net8.0\Balta.exe
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\bin\Debug\net8.0\Balta.deps.json
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\bin\Debug\net8.0\Balta.runtimeconfig.json
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\bin\Debug\net8.0\Balta.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\bin\Debug\net8.0\Balta.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\Balta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\Balta.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\Balta.AssemblyInfo.cs
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\Balta.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\Balta.sourcelink.json
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\Balta.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\refint\Balta.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\Balta.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\Balta.genruntimeconfig.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\DevSam\Balta\BaltaIo\obj\Debug\net8.0\ref\Balta.dll

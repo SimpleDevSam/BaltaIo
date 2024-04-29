@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using Balta.SharedContext;
+
 namespace Balta.ContentContext
 {
     public class Module : Base
@@ -9,7 +12,6 @@ namespace Balta.ContentContext
 
         public int Order { get; set; }
         public string Title { get; set; }
-
         public IList<Lecture> Lectures { get; set; }
     }
 }

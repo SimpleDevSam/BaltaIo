@@ -1,54 +1,53 @@
-﻿using System;
-using System.ComponentModel;
+﻿﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Balta.ContentContext;
-using Balta.ContentContext.Enums;
-namespace Balta 
+
+namespace Balta
 {
-    public class Program {
-        public static void Main(string[] args)
+    class Program
+    {
+        static void Main(string[] args)
         {
             var articles = new List<Article>();
+            articles.Add(new Article("Artigo sobre OOP", "orientacao-objetos"));
+            articles.Add(new Article("Artigo sobre C#", "csharp"));
+            articles.Add(new Article("Artigo sobre .NET", "dotnet"));
 
-            articles.Add(new Article("Artigo sobre ODP", "orientacao-objetos"));
-            articles.Add(new Article("Artigo sobre ODP2", "orientacao-objetos2"));
-            articles.Add(new Article("Artigo sobre ODP3", "orientacao-objetos3"));
-
-            foreach (var article in articles)
-            {
-                Console.WriteLine(article.Id);
-                Console.WriteLine(article.Title);
-                Console.WriteLine(article.Url);
-            }
             var courses = new List<Course>();
-            var course = new Course("Fundamentos OP","fundamentos-oop");
-            var course2 = new Course("Fundamentos OP2","fundamentos-oop2");
-            var course3 = new Course("Fundamentos OP3","fundamentos-oop3");
-            
-
-            courses.Add(course);
-            courses.Add(course2);
-            courses.Add(course3);
-
+            var courseOOP = new Course("Fundamentos OOP", "fundamentos-oop");
+            var courseCsharp = new Course("Fundamentos C#", "fundamentos-csharp");
+            var courseAspNet = new Course("Fundamentos ASP.NET", "fundamentos-aspnet");
+            courses.Add(courseOOP);
+            courses.Add(courseCsharp);
+            courses.Add(courseAspNet);
 
             var careers = new List<Career>();
-            var careerDotNet = new Career("Especialista .NET", "especialista-dotnet");
-            var careerItem3 = new CareerItem(3,"3Comece por aqui", "",course);
-            var careerItem = new CareerItem(1,"Comece por aqui", "",course3);
-            var careerItem2 = new CareerItem(2,"2Comece por aqui", "",course2);
-            careerDotNet.Items.Add(careerItem);
-            careerDotNet.Items.Add(careerItem3);
-            careerDotNet.Items.Add(careerItem2);
-            careers.Add(careerDotNet);
-            
+            var careerDotnet = new Career("Especialista .NET", "especialista-dotnet");
+            var careerItem2 = new CareerItem(1, "Aprenda OOP", "", null);
+            var careerItem = new CareerItem(2, "Comece por aqui", "", courseCsharp);
+            var careerItem3 = new CareerItem(3, "Aprenda .NET", "", courseAspNet);
+            careerDotnet.Items.Add(careerItem2);
+            careerDotnet.Items.Add(careerItem3);
+            careerDotnet.Items.Add(careerItem);
+            careers.Add(careerDotnet);
 
-            foreach (var career in careers) {
+            foreach (var career in careers)
+            {
                 Console.WriteLine(career.Title);
-                foreach(var item in career.Items.OrderByDescending(x=> x.Order))
+                foreach (var item in career.Items.OrderBy(x => x.Order))
                 {
-                    Console.WriteLine($"{item.Order} - {item.Title} - {item.Course.Title}");
+                    Console.WriteLine($"{item.Order} - {item.Title}");
+                    Console.WriteLine(item.Course?.Title);
+                    Console.WriteLine(item.Course?.Level);
+
+                    foreach (var notification in item.Notifications)
+                    {
+                        Console.WriteLine($"{notification.Message} {notification.Property}");
+                    }
                 }
+
             }
-            
         }
     }
 }
