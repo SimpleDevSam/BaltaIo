@@ -10,7 +10,6 @@ namespace Balta.ContentContext
             : base(title, url)
         {
             Items = new List<CareerItem>();
-
         }
         public IList<CareerItem> Items { get; set; }
 
